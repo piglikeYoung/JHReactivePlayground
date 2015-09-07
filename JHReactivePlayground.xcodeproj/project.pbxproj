@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		7DE7E0411B9D2DA000EA582B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE7E0401B9D2DA000EA582B /* main.m */; };
 		7DE7E0441B9D2DA000EA582B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE7E0431B9D2DA000EA582B /* AppDelegate.m */; };
-		7DE7E0471B9D2DA000EA582B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE7E0461B9D2DA000EA582B /* ViewController.m */; };
 		7DE7E04A1B9D2DA000EA582B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE7E0481B9D2DA000EA582B /* Main.storyboard */; };
 		7DE7E04C1B9D2DA000EA582B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE7E04B1B9D2DA000EA582B /* Images.xcassets */; };
 		7DE7E04F1B9D2DA000EA582B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DE7E04D1B9D2DA000EA582B /* LaunchScreen.xib */; };
 		7DE7E05B1B9D2DA000EA582B /* JHReactivePlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE7E05A1B9D2DA000EA582B /* JHReactivePlaygroundTests.m */; };
+		7DE7E0661B9D30DA00EA582B /* JHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE7E0651B9D30DA00EA582B /* JHViewController.m */; };
+		7DE7E0691B9D329A00EA582B /* JHDummySignInService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE7E0681B9D329A00EA582B /* JHDummySignInService.m */; };
+		EB8D1505364620375B008D57 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44ACF70CFB983301FEC68B45 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A361382F158DFD4DAABFD49 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		44ACF70CFB983301FEC68B45 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE7E03B1B9D2DA000EA582B /* JHReactivePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHReactivePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE7E03F1B9D2DA000EA582B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DE7E0401B9D2DA000EA582B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DE7E0421B9D2DA000EA582B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DE7E0431B9D2DA000EA582B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7DE7E0451B9D2DA000EA582B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7DE7E0461B9D2DA000EA582B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7DE7E0491B9D2DA000EA582B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DE7E04B1B9D2DA000EA582B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7DE7E04E1B9D2DA000EA582B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7DE7E0541B9D2DA000EA582B /* JHReactivePlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHReactivePlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE7E0591B9D2DA000EA582B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DE7E05A1B9D2DA000EA582B /* JHReactivePlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHReactivePlaygroundTests.m; sourceTree = "<group>"; };
+		7DE7E0641B9D30DA00EA582B /* JHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHViewController.h; sourceTree = "<group>"; };
+		7DE7E0651B9D30DA00EA582B /* JHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHViewController.m; sourceTree = "<group>"; };
+		7DE7E0671B9D329A00EA582B /* JHDummySignInService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHDummySignInService.h; sourceTree = "<group>"; };
+		7DE7E0681B9D329A00EA582B /* JHDummySignInService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHDummySignInService.m; sourceTree = "<group>"; };
+		A02322820ED42AEB4125E2AE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8D1505364620375B008D57 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +68,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4024B600157CD9DC216E5B9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A361382F158DFD4DAABFD49 /* Pods.debug.xcconfig */,
+				A02322820ED42AEB4125E2AE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DE7E0321B9D2DA000EA582B = {
 			isa = PBXGroup;
 			children = (
 				7DE7E03D1B9D2DA000EA582B /* JHReactivePlayground */,
 				7DE7E0571B9D2DA000EA582B /* JHReactivePlaygroundTests */,
 				7DE7E03C1B9D2DA000EA582B /* Products */,
+				4024B600157CD9DC216E5B9A /* Pods */,
+				C660CFB7AF1C6D146E7EF8B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +102,10 @@
 			children = (
 				7DE7E0421B9D2DA000EA582B /* AppDelegate.h */,
 				7DE7E0431B9D2DA000EA582B /* AppDelegate.m */,
-				7DE7E0451B9D2DA000EA582B /* ViewController.h */,
-				7DE7E0461B9D2DA000EA582B /* ViewController.m */,
+				7DE7E0641B9D30DA00EA582B /* JHViewController.h */,
+				7DE7E0651B9D30DA00EA582B /* JHViewController.m */,
+				7DE7E0671B9D329A00EA582B /* JHDummySignInService.h */,
+				7DE7E0681B9D329A00EA582B /* JHDummySignInService.m */,
 				7DE7E0481B9D2DA000EA582B /* Main.storyboard */,
 				7DE7E04B1B9D2DA000EA582B /* Images.xcassets */,
 				7DE7E04D1B9D2DA000EA582B /* LaunchScreen.xib */,
@@ -119,6 +140,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C660CFB7AF1C6D146E7EF8B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44ACF70CFB983301FEC68B45 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DE7E05E1B9D2DA000EA582B /* Build configuration list for PBXNativeTarget "JHReactivePlayground" */;
 			buildPhases = (
+				99A32F62BBD4A5ED820B86E2 /* Check Pods Manifest.lock */,
 				7DE7E0371B9D2DA000EA582B /* Sources */,
 				7DE7E0381B9D2DA000EA582B /* Frameworks */,
 				7DE7E0391B9D2DA000EA582B /* Resources */,
+				DB39F75E1B089DCE62A43AC8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,6 +194,7 @@
 		7DE7E0331B9D2DA000EA582B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JH;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = pikeYoung;
 				TargetAttributes = {
@@ -214,13 +246,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99A32F62BBD4A5ED820B86E2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB39F75E1B089DCE62A43AC8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DE7E0371B9D2DA000EA582B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DE7E0471B9D2DA000EA582B /* ViewController.m in Sources */,
+				7DE7E0691B9D329A00EA582B /* JHDummySignInService.m in Sources */,
 				7DE7E0441B9D2DA000EA582B /* AppDelegate.m in Sources */,
+				7DE7E0661B9D30DA00EA582B /* JHViewController.m in Sources */,
 				7DE7E0411B9D2DA000EA582B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +413,7 @@
 		};
 		7DE7E05F1B9D2DA000EA582B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A361382F158DFD4DAABFD49 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JHReactivePlayground/Info.plist;
@@ -357,6 +424,7 @@
 		};
 		7DE7E0601B9D2DA000EA582B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02322820ED42AEB4125E2AE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JHReactivePlayground/Info.plist;
@@ -418,6 +486,7 @@
 				7DE7E0601B9D2DA000EA582B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DE7E0611B9D2DA000EA582B /* Build configuration list for PBXNativeTarget "JHReactivePlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +495,7 @@
 				7DE7E0631B9D2DA000EA582B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

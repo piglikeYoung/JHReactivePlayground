@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JHViewController.h
 //  JHReactivePlayground
 //
 //  Created by piglikeyoung on 15/9/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JHViewController : UIViewController
 
 @end
-
